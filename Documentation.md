@@ -11,7 +11,7 @@ Steps for Twitter Sentiment Analysis
 The first step is gathering tweets for sentiment analysis. This can be done using Twitter APIs like tweepy or using datasets available online (e.g., Kaggle, sentiment140).
 Each tweet has associated metadata such as timestamp, user details, and the tweet’s text. However, for this analysis, only the tweet content (text) will be used.
 
-2) Data Preprocessing
+2) Data Preprocessing:
 a) Cleaning Tweets:Twitter data usually contains noise, including URLs, mentions, hashtags, emojis, and punctuation. Cleaning the data involves:
 i) Removing URLs, special characters, numbers, and stop words.
 ii) Removing usernames and hashtags.
@@ -52,19 +52,19 @@ d) F1-Score: The harmonic mean of precision and recall, balanced between the two
 After training and evaluating this model, it will be able to predict the sentiment of all new tweets.
 The model will then predict positive or negative for each tweet using the probabilities assigned to that particular class.
 
-Challenges in Twitter Sentiment Analysis
+Challenges in Twitter Sentiment Analysis:
 a) Sarcasm & Irony: Is detecting sarcasm in Tweets, because the meaning of words is opposite but sentiment will be different.
 b) Short text: Tweets are restricted to 280 characters, which leads to its use of informal language, shortenings and slang complicating the processing.
 c) Class Imbalance: Since most of the targeting sites have a lot of neutral tweets and not many positive or negative ones, most data come from the other classes causing class imbalance.
 d) Tweets in Different Languages: Users tweet in multiple languages; so the model should be able to handle more than one language well enough. 
 
-Applications of Twitter Sentiment Analysis
+Applications of Twitter Sentiment Analysis:
 
 a) Monitoring and Controlling Brand: Business can keep a track of the tweets about the brand so that it will help in dropping their feedback and sentiment.
 b) Event Analysis: Sentiment for the major things like product launches, news or any disaster can be tracked using Twitter.
 c) BusinessLogic: Companies can categorize incoming tweets as complaints or compliments, and then handle these in a manner that's appropriate for the sentiment detected.
 
-Conclusion
+Conclusion:
 
 Twitter is a common source for sentiment analysis which has huge potential in understanding human emotions at scale. An organization, by using the concept of natural language processing and machine learning can categorize tweets as positive and negative so that they know the customer opinion, trends in public or reactions openly against them. Despite obstacles like sarcasm, sociolect bias, and overtly negative posts in different languages, new NLP breakthroughs have continued to enhance the precision of sentiment analysis models.
 In conclusion, sentiment analysis on social media platforms such as Twitter will still be very important in the decision-making process across industries and make a big difference to businesses practicing it.
