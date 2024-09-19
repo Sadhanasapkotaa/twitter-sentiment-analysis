@@ -1,4 +1,4 @@
-Twitter Sentiment Analysis: Positive or Negative Tweet Classification
+#Twitter Sentiment Analysis: Positive or Negative Tweet Classification
 
 Introduction
 Sentiment analysis (or opinion mining) is the identification and classification of text data according to polarity. Commonly used for tasks where more text volume needs to test like Twitter Streams & Other Social Media, it works very well. With millions of tweets generated each day, sentiment analysis has become an interesting application of Natural Language Processing on Twitter to determine in real-time the public opinion about specific topics, trends, and events.The current document was dedicated to sentiment analysis on twitter comments in which each comment is labeled as negative or positive.
